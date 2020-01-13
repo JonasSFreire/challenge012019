@@ -51,6 +51,7 @@ Serviço em Flask com arquitetura REST para manipular dados de usuários, utiliz
 ## Sobre a aplicação
 
 Rotas:
+
 ```/v1/users/```: rota HTTP com os métodos GET, POST, PUT e DELETE para manipular dados do usuário;
 
 ```/v1/token/```: rota HTTP com os métodos POST e DELETE para obter e revogar autenticação do usuário via token;
@@ -113,9 +114,9 @@ Utilize o httpie ou outro client para interagir com a aplicação: ```$ sudo apt
 
 * ```$ pip3 install -r requirements.txt```: instala as depenências do projeto;
 
-Executando os testes: ```$ pytest app/tests/users.py```
+* Executando os testes: ```$ pytest app/tests/users.py```
 
-Executando a aplicação: ```$ flask run``` (altere ```FLASK_CONFIG``` para "development" em ```.env```);
+* Executando a aplicação: ```$ flask run``` (altere ```FLASK_CONFIG``` para "development" em ```.env```);
 
 * ```$ deactivate```: sai do ambiente de virtual;
 
