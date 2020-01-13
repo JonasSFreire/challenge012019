@@ -106,7 +106,7 @@ Utilize o httpie ou outro client para interagir com a aplicação: ```$ sudo apt
 
 * ```$ sudo apt install -y python-pip3```: instala o pip3;
 
-* ```$pip3 install virtualenv```: instala a virtualenv;
+* ```$ pip3 install virtualenv```: instala a virtualenv;
 
 * ```$ python3 -m virtualenv venv```: cria um ambiente virual;
 
